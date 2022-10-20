@@ -16,3 +16,4 @@ export const setCachedPage = (route: string, page: string) => {
 		return client.setEx(pageCacheKey(route), 2, page);
 	}
 };
+  
